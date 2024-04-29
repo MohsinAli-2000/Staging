@@ -2,12 +2,12 @@ const WhoWeAre = () => {
   return (
     <div className="px-2 md:px-32 mt-16 flex flex-col md:flex-row justify-center md:justify-between items-center">
       <div className="w-full md:w-1/2">
-        <span className="text-custom-orange text-lg">
+        <span className="text-custom-orange text-lg font-bold">
           WHO WE ARE
         </span>
-        <h1 className="font-aldrich text-custom-black text-4xl my-2">
+        <h2 className="font-aldrich text-custom-black text-4xl my-2">
           WE PROPOSE AND DISCUSS DESIGN RULES
-        </h1>
+        </h2>
         <p className="text-custom-gray my-6">
           Metasurfaces are generally designed by placing scatterers in periodic
           or pseudo-periodic grids. We propose and discuss design rules for

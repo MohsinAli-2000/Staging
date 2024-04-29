@@ -52,9 +52,9 @@ const HomeHeader = () => {
       <span className="text-custom-gray">Discover more</span>
       <div className="my-2 text-xl">
       <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faFacebookF} />
-      <FontAwesomeIcon className="mx-6" icon={faTwitter} />
-      <FontAwesomeIcon className="mx-6" icon={faInstagram} />
-      <FontAwesomeIcon className="mx-6" icon={faLinkedinIn} />
+      <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faTwitter} />
+      <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faInstagram} />
+      <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faLinkedinIn} />
       </div>
       </div>
     </div>

@@ -32,12 +32,30 @@
 }
 
 .custom-nav-text {
- 
   font-size: 30px;
-  background-color: #FEFEFE;
+  background-color: #fefefe;
   padding: 2px 2px;
-  
 }
-.custom-nav-text:hover{
+.custom-nav-text:hover {
   color: #000;
+}
+.slick-arrow {
+  color: #000;
+  position: absolute;
+}
+.slick-next{
+  color: #000;
+  position: absolute;
+  right: -5%;
+  top: 50%;
+  background-color: #fefefe;
+  padding: 4px;
+}
+.slick-prev {
+  color: #000;
+  position: absolute;
+  left: -5%;
+  top: 50%;
+  background-color: #fefefe;
+  padding: 4px;
 }
