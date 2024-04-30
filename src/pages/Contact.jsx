@@ -6,7 +6,7 @@ const Contact = () => {
     <div>
       <Header page="Contact US" />
       <div className="px-2 md:px-32 my-12">
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
 
 <span className="text-custom-orange font-bold">INFORMATION</span>
 <h3 className="text-custom-black text-4xl font-aldrich my-4">CONTACT DETAILS</h3>
