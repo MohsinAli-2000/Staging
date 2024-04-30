@@ -95,8 +95,8 @@ const Footer = () => {
 
       <div className="flex flex-col md:flex-row text-center justify-between text-custom-gray">
         <span>
-          Copyright © 2024 All rights reserved | This template is made with{" "}
-          <FontAwesomeIcon className="text-custom-orange" icon={faHeart} /> by <span className="text-custom-white font-semibold">Colorlib</span> 
+          Copyright © 2024 All rights reserved | This template is designed by <span className="text-custom-white font-semibold"> Colorlib</span> developed by{" "}
+          <FontAwesomeIcon className="text-custom-orange" icon={faHeart} />  <span className="text-custom-white font-semibold">Mohsin Ali</span> 
         </span>
         <span className="mt-2 md:mt-0">
         Terms of use | Privacy Policy

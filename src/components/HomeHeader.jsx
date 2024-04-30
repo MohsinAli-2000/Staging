@@ -6,7 +6,6 @@ import {
   faInstagram,
   faLinkedinIn,
   faTwitter,
-  
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const HomeHeader = () => {
@@ -45,20 +44,25 @@ const HomeHeader = () => {
         </div>
       </OwlCarousel>
       <div>
-      <button className="text-semibold text-xl mt-16 border-custom-gray border-2 p-2">See Projects</button>
+        <button className="text-semibold text-xl mt-16 border-custom-gray border-2 p-2">
+          See Projects
+        </button>
       </div>
       <div className="mt-32 flex flex-col md:flex-row justify-center items-center md:justify-between gap-28">
-      <span className="text-white cursor-default">______________</span>
-      <span className="text-custom-gray">Discover more</span>
-      <div className="my-2 text-xl">
-      <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faFacebookF} />
-      <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faTwitter} />
-      <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faInstagram} />
-      <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faLinkedinIn} />
-      </div>
+        <span className="text-white cursor-default">______________</span>
+        <span className="text-custom-gray">Discover more</span>
+        <div className="my-2 text-xl">
+          <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faFacebookF} />
+          <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faTwitter} />
+          <FontAwesomeIcon className="mx-6 cursor-pointer" icon={faInstagram} />
+          <FontAwesomeIcon
+            className="mx-6 cursor-pointer"
+            icon={faLinkedinIn}
+          />
+        </div>
       </div>
     </div>
   );
 };
 
-export default HomeHeader; 
+export default HomeHeader;
