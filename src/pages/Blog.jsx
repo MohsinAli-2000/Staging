@@ -150,7 +150,7 @@ const Blog = () => {
             </p>
             <img src="/signature.webp" alt="image" />
             <div className="w-full flex justify-between border-b  border-custom-gray my-6">
-              <input type="text" placeholder="Search..." />
+              <input type="text" className="outline-none" placeholder="Search..." />
               <button className="text-custom-gray">
                 <FontAwesomeIcon icon={faMagnifyingGlass} />
               </button>
